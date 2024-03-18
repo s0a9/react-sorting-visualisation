@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 790px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 790px) {
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
